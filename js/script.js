@@ -144,8 +144,6 @@ const squadre = [
   }
 ];
 
-console.log(squadre);
-
 const points = () => {
   max = 120;
   min = 10;
@@ -159,3 +157,9 @@ const fouls = () => {
   falli = Math.floor(Math.random() * (max - min)) + min;
   return falli;
 }
+
+for (let i = 0; i < squadre.length; i++) {
+  squadre[i]['punti'] = points();
+  squadre[i]['falli-subiti'] = fouls();
+}
+console.log(squadre)
