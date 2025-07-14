@@ -20,3 +20,15 @@ const bici = [
     peso: '6.7 kg'
   }
 ];
+
+console.log(bici)
+
+let pesoMin = bici[0];
+
+for (let i = 1; i < bici.length; i++) {
+  if (bici[i]['peso'] < pesoMin['peso']) {
+    pesoMin = bici[i];
+  }
+}
+console.log(pesoMin)
+
