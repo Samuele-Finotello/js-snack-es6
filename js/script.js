@@ -1,3 +1,4 @@
+//SNACK 1
 //dichiaro l'array di oggetti bici
 const bici = [
   {
@@ -37,3 +38,110 @@ console.log(pesoMin)
 //stampo il messaggio su schermo
 const biciMin = document.getElementById('bici-min');
 biciMin.innerText = `La bici piu' leggera e' la ${pesoMin['nome']} che pesa: ${pesoMin['peso']}`;
+
+//SNACK 2
+//dichiaro l'array di oggetti squadre
+const squadre = [
+  {
+    nome: 'Atalanta',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Bologna',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Cagliari',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Como',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Cremonese',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Fiorentina',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Genoa',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Inter',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Juventus',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Lazio',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Lecce',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Milan',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Napoli',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Parma',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Pisa',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Roma',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Sassuolo',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Torino',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Udinese',
+    punti: 0,
+    'falli-subiti': 0
+  },
+  {
+    nome: 'Verona',
+    punti: 0,
+    'falli-subiti': 0
+  }
+];
+
+console.log(squadre);
