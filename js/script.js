@@ -1,3 +1,4 @@
+//dichiaro l'array di oggetti bici
 const bici = [
   {
     nome: 'Giant TCR Advanced SL 0',
@@ -23,6 +24,7 @@ const bici = [
 
 console.log(bici)
 
+//dichiaro e assegno la variabile da confrontare con tutti gli oggetti
 let pesoMin = bici[0];
 
 for (let i = 1; i < bici.length; i++) {
@@ -32,5 +34,6 @@ for (let i = 1; i < bici.length; i++) {
 }
 console.log(pesoMin)
 
+//stampo il messaggio su schermo
 const biciMin = document.getElementById('bici-min');
 biciMin.innerText = `La bici piu' leggera e' la ${pesoMin['nome']} che pesa: ${pesoMin['peso']}`;
