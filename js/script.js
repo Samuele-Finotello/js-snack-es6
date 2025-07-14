@@ -1,0 +1,22 @@
+const bici = [
+  {
+    nome: 'Giant TCR Advanced SL 0',
+    peso: '6.4 kg'
+  },
+  {
+    nome: 'Scott Addict RC Ultimate',
+    peso: '5.9 kg'
+  },
+  {
+    nome: 'Specialized S-Works Aethos/Sram Red Etap AXS',
+    peso: '6.34 kg'
+  },
+  {
+    nome: 'Wilier Triestina Verticale SLR',
+    peso: '6.5 kg'
+  },
+  {
+    nome: 'Orbea Orca M10iLTD Replica',
+    peso: '6.7 kg'
+  }
+];
