@@ -149,6 +149,13 @@ console.log(squadre);
 const points = () => {
   max = 120;
   min = 10;
-  let punti = Math.floor(Math.random() * (max - min + 1)) + min;
+  punti = Math.floor(Math.random() * (max - min + 1)) + min;
   return punti;
+}
+
+const fouls = () => {
+  max = 800;
+  min = 0;
+  falli = Math.floor(Math.random() * (max - min)) + min;
+  return falli;
 }
