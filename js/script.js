@@ -162,4 +162,10 @@ for (let i = 0; i < squadre.length; i++) {
   squadre[i]['punti'] = points();
   squadre[i]['falli-subiti'] = fouls();
 }
-console.log(squadre)
+console.log(squadre);
+
+let nomiEFalli = [];
+for (let i = 0; i < squadre.length; i++) {
+  nomiEFalli.push(`squadra: ${squadre[i]['nome']}, falli subiti: ${squadre[i]['falli-subiti']}`);
+}
+console.log(nomiEFalli);
