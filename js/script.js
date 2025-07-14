@@ -145,3 +145,10 @@ const squadre = [
 ];
 
 console.log(squadre);
+
+const points = () => {
+  max = 120;
+  min = 10;
+  let punti = Math.floor(Math.random() * (max - min + 1)) + min;
+  return punti;
+}
