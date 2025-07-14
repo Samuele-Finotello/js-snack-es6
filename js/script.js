@@ -32,3 +32,5 @@ for (let i = 1; i < bici.length; i++) {
 }
 console.log(pesoMin)
 
+const biciMin = document.getElementById('bici-min');
+biciMin.innerText = `La bici piu' leggera e' la ${pesoMin['nome']} che pesa: ${pesoMin['peso']}`;
